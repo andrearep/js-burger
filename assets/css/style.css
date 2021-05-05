@@ -13,7 +13,7 @@ body{
 }
 header{
     background-color: #FDBB40;
-    padding:40px;
+    padding:20px 40px;
     position: relative;
 }
 h1{
@@ -81,15 +81,21 @@ input#coupon{
     border-radius: 5px;
     padding:4px;
 }
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .btn{
     padding:10px;
     background-color: #FDBB40;
     font-weight: bolder;
     font-size: 1.2rem;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px; 
+    margin:20px 0;
 }
+
 footer{
     position: fixed;
     bottom: 0;
