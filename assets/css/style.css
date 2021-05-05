@@ -5,6 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF5E2;
 }
 .container{
     width: 50%;
@@ -15,6 +16,9 @@ header{
     padding:40px;
     position: relative;
 }
+h1{
+    margin-top: 15px;
+}
 .burger_top{
     height: 150px;
     position: absolute;
@@ -22,3 +26,80 @@ header{
     top: -10px;
 }
 
+main{
+    background-color: #FFFFFF;
+    padding: 40px;
+    
+}
+#burger_name{
+    font-size: 2.5rem;
+    border: none;
+    margin: 15px 0;
+}
+
+h2{
+    margin:10px 0
+}
+.ingredients_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ingredient{
+    display: flex;
+    line-height: 50px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.ingredient>*{ 
+    margin-right: 15px;
+}
+.ingredient>img{
+    height: 50px;
+    margin-right: 25px;
+}
+.ingredient>span{
+    font-weight: bolder;
+    
+}
+.ingredient>input{
+    align-self: center;
+    
+}
+.ingredient>label{
+    color: #D33359;
+    font-weight: bolder;
+    
+}
+.discount_coupon{
+    margin-bottom: 15px;
+}
+input#coupon{
+    background-color: #FFF5E2;
+    min-width: 70%;
+    border: none;
+    border-radius: 5px;
+    padding:4px;
+}
+.btn{
+    padding:10px;
+    background-color: #FDBB40;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    background-color: #D33359;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+footer>span{
+    font-size: 1.7rem;
+}
