@@ -48,7 +48,7 @@ h2{
 .ingredient{
     display: flex;
     line-height: 50px;
-    margin-right: 100px;
+    width:50%;
     margin-bottom: 20px;
 }
 .ingredient>*{ 
